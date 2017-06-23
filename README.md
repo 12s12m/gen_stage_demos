@@ -1,19 +1,8 @@
 # Gsq
 
-**TODO: Add description**
+Demos showing the use of GenStage in the context of a simple Queue and a pool of Workers
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `gsq` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [{:gsq, "~> 0.1.0"}]
-end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/gsq](https://hexdocs.pm/gsq).
-
+mix deps.get
+mix run lib/first.exs # first demo
+```
